@@ -1,0 +1,91 @@
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #ecb062;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.header__title {
+    padding-left: 10px;
+}
+
+.header__nav {
+    margin-left: auto;
+    padding: 10px;
+}
+
+.nav__list li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header a:active {
+    text-decoration: none;
+    color: #333333;
+}
+
+.article__title_sobre_nosotros {
+    text-align: center;
+}
+
+#linea {
+    display: flex;
+    flex-direction: column;
+    /* Alinear los elementos en una columna */
+    align-items: center;
+    /* Alinear los elementos horizontalmente en el centro */
+}
+
+.article__container_experiencia,
+.article__container_maquinas,
+.article__container_kit {
+    width: 80%;
+    /* Ajusta el ancho según sea necesario */
+    margin-bottom: 20px;
+    /* Agrega espacio entre los contenedores */
+    text-align: center;
+    /* Alinear el texto al centro dentro de cada contenedor */
+}
+
+.article__container_experiencia {
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 30%;
+    height: 10%;
+}
+
+.image__container_experiencia {
+    position: absolute;
+    left: 19%;
+    top: 27%;
+    z-index: -100;
+}
+
+.article__container_maquinas {
+    margin-top: 2%;
+    margin-left: -40%;
+    width: 30%;
+    height: 10%;
+}
+
+.article__container_kit {
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 30%;
+    height: 10%;
+}
